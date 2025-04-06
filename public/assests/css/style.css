@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bannerImage{
+  width: 100%;
+  height: 100vh;
+}
+.content{
+  display: flex;
+  padding: 30px;
+  border: 16px double black;
+}
+.aboutSection-div{
+  text-align: center;
+  padding: 30px;
+  background-color: bisque;
+  border-radius: 25px;
+  width: 50%;
+}
+.aboutImg-div{
+  text-align: center;
+  width: 49%;
+}
+.aboutImg{
+  width: 85%;
+  height: 50vh;
+  border-radius: 20px;
+}
+
+.button{
+  padding: 7px;
+  border-radius: 7px;
+  margin-top: 7px;
+  background-color: brown;
+}
+.button a{
+  color: white;
+  text-decoration: none;
+}
+
+.product-sec{
+display: flex;
+gap: 20px;
+padding: 20px;
+justify-content: center;
+margin-bottom: 2rem;
+}
+.product-div{
+display: flex;
+}
+.content-div:hover{
+background-color: rgb(14, 12, 12);
+color: white;
+}
+.product-img{
+height: 300px;
+width: 300px;
+object-fit: cover;
+}
+.form-check {
+display: flex;
+align-items: center;
+gap: 8px;
+}
+.carosel{
+  height:93vh;
+}
